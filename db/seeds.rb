@@ -74,3 +74,8 @@ post4 = author3.posts.create(
 post4.tags.create(
   name: "facere"
 )
+
+dog1 = Dog.create(first_name: "Draymond", last_name: "Scruffnugget")
+dog2 = Dog.create(first_name: "Axel", last_name: "Ritchie")
+order1 = Order.create(item: "nature's miracle, icelandic cod, beef chew", string: "nature's miracle, icelandic cod, beef chew")
+order2 = Order.create(item: "newman's best, icelandic salmon jerky, chicken chew", string: "newman's best, icelandic salmon jerky, chicken chew")
